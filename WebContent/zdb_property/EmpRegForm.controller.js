@@ -18,6 +18,14 @@ sap.ui.controller("zdb_property.EmpRegForm", {
 		
 		var oTextCity = this.getView().byId("idCity");
 		oTextCity.bindProperty("text", "/address/city");
+		
+		// element binding to SF
+		
+		var osf = this.getView().byId("idSF");
+		
+		//
+		var index = 1;
+		osf.bindElement("/empInfo/"+index);
 			
 	},
 

@@ -17,6 +17,40 @@
 	           </form:content>
 	           
 	       </form:SimpleForm>
+	       
+	       <form:SimpleForm binding="{/empInfo/2}">
+	           <form:title>
+	               <core:Title text="Employee Data"/>
+	           </form:title>
+	           <form:content>
+	                <Label text="Name"/>
+	                <Text text="{name}"/>
+	                
+	                <Label text="Role"/>
+	                <Text text="{role}"/>
+	                
+	                <Label text="Department"/>
+	                <Text text="{dept}"/>
+	           </form:content>
+	           
+	       </form:SimpleForm>
+	       
+	       <form:SimpleForm id="idSF">
+	           <form:title>
+	               <core:Title text="Employee Data"/>
+	           </form:title>
+	           <form:content>
+	                <Label text="Name"/>
+	                <Text text="{name}"/>
+	                
+	                <Label text="Role"/>
+	                <Text text="{role}"/>
+	                
+	                <Label text="Department"/>
+	                <Text text="{dept}"/>
+	           </form:content>
+	           
+	       </form:SimpleForm>
 		</content>
 	</Page>
 </core:View>
