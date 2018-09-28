@@ -1,0 +1,26 @@
+{
+   "name" : "smax",
+   "address" : {
+      "hno" : 103,
+      "city" : "Hyderabad"
+   },
+   "empInfo" : [
+   {
+     "name" : "Devender",
+     "role" : "Trainer",
+     "dept" : "SAP"
+   },
+   {
+     "name" : "Surender",
+     "role" : "Marketing",
+     "dept" : "SAP"
+   },
+   {
+     "name" : "Mahendar",
+     "role" : "Developer",
+     "dept" : "Java"
+   }
+   
+   ]
+}
+

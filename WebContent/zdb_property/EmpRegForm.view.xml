@@ -1,0 +1,22 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="zdb_property.EmpRegForm" 
+		xmlns:html="http://www.w3.org/1999/xhtml"
+		xmlns:form="sap.ui.layout.form"
+		>
+	<Page title="Title">
+		<content>
+	       <form:SimpleForm>
+	           <form:title>
+	               <core:Title text="Company Data"/>
+	           </form:title>
+	           <form:content>
+	                <Label text="Name"/>
+	                <Text text="{/name}"/>
+	                <Label text="Address-City"/>
+	                <Text id="idCity"/>
+	           </form:content>
+	           
+	       </form:SimpleForm>
+		</content>
+	</Page>
+</core:View>
